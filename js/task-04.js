@@ -9,16 +9,12 @@ incrementBtnRef.addEventListener('click', handleIncrementBtnClick)
 
 function handleDecrementBtnClick () {
     counterValue -= 1;
-    // console.log(counterValue);
     valueRef.textContent = counterValue;
-     // console.log(counterValue);
-}
+ }
    
 function handleIncrementBtnClick() {
     counterValue += 1;
-    // console.log(counterValue);
     valueRef.textContent = counterValue;
-     // console.log(counterValue);
 }
 
 
