@@ -4,7 +4,7 @@ const symbolNumber = inputRef.dataset.length;
 inputRef.addEventListener('blur', onInputBlur);
 
 function onInputBlur(event) {
-    // console.log(event.currentTarget.value.length)
+    console.log(event.currentTarget.value.length)
     if (event.currentTarget.value.length === symbolNumber) {
         inputRef.classList.add('valid'); 
          inputRef.classList.remove('invalid')
